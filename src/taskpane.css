@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #f4f7f8;
+  color: #19323a;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.pane {
+  min-height: 100vh;
+  padding: 24px 20px;
+  border-top: 4px solid #ef8354;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #47727a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 18px;
+  color: #19323a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.subject-card {
+  padding: 18px;
+  border: 1px solid #c9d8da;
+  border-left: 4px solid #2a9d8f;
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(25, 50, 58, 0.08);
+}
+
+.field-label {
+  margin: 0 0 4px;
+  color: #47727a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sender-value,
+.subject-value {
+  margin: 0 0 16px;
+  overflow-wrap: break-word;
+  color: #19323a;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.subject-value {
+  margin-bottom: 0;
+}
+
+.status {
+  margin: 14px 2px 0;
+  color: #47727a;
+  font-size: 12px;
+  line-height: 1.4;
+}
